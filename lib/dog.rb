@@ -17,10 +17,10 @@ def self.print_all
   end
 end
 def clear_all
-@@all.clear 
-  
+@@all.clear
+
 end
- 
+
 def save
   @@all << self
 end
