@@ -1,15 +1,15 @@
 # Add your code here
-class Dog 
+class Dog
 attr_accessor :name
 @@all = []
 def initialize(name)
   @name = name
-  @@all << self 
-end 
+  @@all << self
+end
 
 def self.all
   @@all
-end 
+end
 
 def print_all
 
