@@ -16,6 +16,11 @@ def self.print_all
     puts dog.name
   end
 end
+def clear_all
+@@all.clear 
+  
+end
+ 
 def save
   @@all << self
 end
